@@ -1,5 +1,4 @@
-import isEqual from '@/is-equal';
-
-export default function isEqualChecker(obj1, obj2) {
-  return isEqual(obj1, obj2);
-}
+export { default as Bank } from '@/models/bank';
+export { default as User } from '@/models/user';
+export { default as BankAccount } from '@/models/bank-account';
+export { default as TransactionService } from '@/services/TransactionService';
